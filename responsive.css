@@ -1,0 +1,74 @@
+@media all and (max-width: 800px) {
+  .hand-text {
+    float: none;
+    width: 100%;
+  }
+  .hand-images {
+    width: 100%;
+  }
+
+  /*=====================================
+		phone design area
+=========================================*/
+
+  .mobile {
+    float: none;
+    width: 100%;
+    background: url("images/mobile.png") no-repeat top center;
+    min-height: 400px;
+    margin-top: 60px;
+  }
+
+  .mobile-text {
+    width: 100%;
+  }
+  /*=====================================
+		commuity-area starts
+=========================================*/
+  .col-1-3 {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .col-1-3:last-child {
+    margin-bottom: 0;
+  }
+  /*=====================================
+		dwonload area starts
+=========================================*/
+
+  .apple {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .play {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .hand-images img {
+    display: none;
+  }
+  input {
+    padding: 19px 4px 19px 11px;
+    width: auto;
+  }
+
+  .subscribe h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .apple a,
+  .play a {
+    padding: 21px 42px 19px 20px;
+  }
+
+  button {
+    padding: 19px 12px;
+  }
+}
